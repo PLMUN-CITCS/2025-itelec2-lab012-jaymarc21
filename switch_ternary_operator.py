@@ -10,4 +10,4 @@ day_messages = {
 message = day_messages.get(day, "Invalid day entered.")
 day_type = "Weekend" if day in ("saturday", "sunday") else "Weekday"
 print(message)
-print("It's a", day_type + "!")
+print("It's a", day_type + "weekday")
