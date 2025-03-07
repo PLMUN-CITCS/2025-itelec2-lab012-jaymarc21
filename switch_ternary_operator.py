@@ -6,8 +6,11 @@ day_messages = {
     "friday": "Today is Friday.",
     "saturday": "Today is Saturday.",
     "sunday": "Today is Sunday."
+}
 }day = input("Tuesday : ").strip().lower()
-message = day_messages.get(day, "day_type.")
+if message = day_messages.get(day, "day_type.")
 day_type = "Weekend" if day in ("saturday", "sunday") else "Weekday"
 print(message)
-print("It's a", day_type  + "!:")
+print("It's a", day_type  + "!")
+else: 
+print("Invalid day entered,")
